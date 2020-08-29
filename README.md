@@ -1,16 +1,8 @@
-# Welcome to the Latin American IXP Observatory
+# Welcome to the African IXP Observatory
 
-This project has been developed by 
+This project is a fork from https://github.com/CoNexDat/latam-ixp-obs
 
-- Esteban Carisimo (Universidad de Buenos Aires & CONICET)
-- Julian M. Del Fiore (Universite de Strasbourg)
-- Diego Dujovne (Universidad Diego Portales)
-- Cristel Pelsser (Universite de Strasbourg)
-- J. Ignacio Alvarez-Hamelin (Universidad de Buenos Aires & CONICET)
-
-One of our main goals is allowed other researchers to reproduce and replicate our analyses. 
-The following instruction will clearly explain how to set up your system, enable a working space and clone this repo.
-In particular, we have divided our code into two pieces: data acquisition (```fetch_data.sh```) and analyses (```run_notebooks.sh```).
+The aim of this project is to study the evolution of the African IXP fabric by using the methodology as described in: https://dl.acm.org/doi/pdf/10.1145/3390251.3390255
 
 ## 1. System pre-requisits
 
@@ -75,7 +67,7 @@ Time to finally clone this repo
 
 
 ```
-git clone git@github.com:CoNexDat/latam-ixp-obs.git
+git clone git@github.com:AFRINIC-Labs/africa-ixp-obs.git
 ```
 
 
@@ -110,8 +102,6 @@ To download our dataset (whether you are interested or not in rerunning the note
 ```
 sh fetch_data.sh
 ```
-
-We provide a link to our LG data collection In case you would like to use our dumps: https://cnet.fi.uba.ar/latam-ixp-obs/lg-ribs/
 
 To rerun our notebooks
 ```
